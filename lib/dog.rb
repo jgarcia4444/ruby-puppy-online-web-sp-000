@@ -19,4 +19,11 @@ class Dog
     @@all = []
   end
 
+  def self.print_all
+    @@all.each do |dog|
+      dog_name = dog.name
+      puts dog_name
+    end
+  end
+
 end
